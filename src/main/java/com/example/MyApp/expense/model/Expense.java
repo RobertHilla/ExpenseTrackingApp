@@ -34,5 +34,7 @@ public class Expense {
     @ManyToOne
     private User user;
 
-
+    public Long getId() {
+        return id;
+    }
 }
